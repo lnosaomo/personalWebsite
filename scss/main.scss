@@ -25,6 +25,7 @@ h3 {
 
   &.lg-heading {
     font-size: 5rem;
+    color: $secondary-color;
   }
 
   &.sm-heading {
@@ -51,9 +52,10 @@ main {
 
   .icons {
     margin-top: 1rem;
-    color: black;
+
     a {
       padding: 0.4rem;
+      color: black;
       @include easeOut;
 
       &:hover {
@@ -80,8 +82,8 @@ main {
 
   .bio-image {
     grid-area: bioimage;
-    width: 240px;
-    height: 230px;
+    width: 180px;
+    height: 180px;
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
@@ -89,7 +91,6 @@ main {
 
   .bio {
     grid-area: bio;
-    font-size: 1.5rem;
   }
 
   .job-1 {
