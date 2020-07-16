@@ -50,7 +50,7 @@ main {
 
   .icons {
     margin-top: 1rem;
-
+    color: black;
     a {
       padding: 0.4rem;
       @include easeOut;
@@ -79,8 +79,8 @@ main {
 
   .bio-image {
     grid-area: bioimage;
-    width: 260px;
-    height: 260px;
+    width: 240px;
+    height: 230px;
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
