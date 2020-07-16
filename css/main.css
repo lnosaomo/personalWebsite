@@ -136,7 +136,8 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    color: black; }
     main .icons a {
       padding: 0.4rem;
       transition: all 0.5s ease-out; }
@@ -154,8 +155,8 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
-    width: 260px;
-    height: 260px;
+    width: 240px;
+    height: 230px;
     margin: auto;
     border-radius: 50%;
     border: #eece1a 3px solid; }
