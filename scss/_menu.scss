@@ -43,7 +43,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.99;
   visibility: hidden;
 
   &.show {
@@ -85,14 +85,6 @@
     &.show {
       // Slide in from bottom
       transform: translate3d(0, 0, 0);
-    }
-
-    .portrait {
-      width: 250px;
-      height: 250px;
-      background: url('../img/portrait.jpg');
-      border-radius: 50%;
-      border: solid 3px $secondary-color;
     }
   }
 
