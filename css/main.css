@@ -95,7 +95,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpeg);
+    background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -106,7 +106,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(233, 221, 221, 0.5); }
+      background: rgba(233, 221, 221, 0.6); }
 
 h1,
 h2,
@@ -116,7 +116,8 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 5rem; }
+    font-size: 5rem;
+    color: #af991e; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -136,10 +137,10 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
-    margin-top: 1rem;
-    color: black; }
+    margin-top: 1rem; }
     main .icons a {
       padding: 0.4rem;
+      color: black;
       transition: all 0.5s ease-out; }
       main .icons a:hover {
         color: #af991e; }
@@ -155,14 +156,13 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
-    width: 240px;
-    height: 230px;
+    width: 180px;
+    height: 180px;
     margin: auto;
     border-radius: 50%;
     border: #af991e 3px solid; }
   .about-info .bio {
-    grid-area: bio;
-    font-size: 1.5rem; }
+    grid-area: bio; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -271,7 +271,7 @@ main {
   main {
     padding: 2rem; }
     main #home h1 {
-      margin-top: 10vh; }
+      margin-top: 23vh; }
     main .lg-heading {
       margin-top: 1rem;
       font-size: 3rem; }
